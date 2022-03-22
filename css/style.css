@@ -1,0 +1,25 @@
+/*
+* PING-PONG AI STYLE BY MATT NIX
+* https://github.com/mattnix4/ping-pong-js
+*/
+body {
+	background-color: #1c1c1c;
+	color:#fefefe;
+}
+canvas, .board {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    z-index: 999;
+}
+

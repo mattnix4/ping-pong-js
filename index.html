@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>PING PONG</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+	<canvas id="cvs"></canvas>
+
+	<div style="width: 480px;display: inline-flex;" class="board">
+	<div style="text-align:left;width:50%;">
+		<input type="checkbox" class='ai_user'/> A.I <br>
+	  <button onmousedown="moveup(User)" onmouseup="clearmove(User)" ontouchstart="moveup(User)">UP</button><br><br>
+	  <button onmousedown="movedown(User)" onmouseup="clearmove(User)" ontouchstart="movedown(User)">DOWN</button>
+	</div>
+
+	<div style="text-align:right;width:50%;">
+		<input type="checkbox" class='ai_com'/> A.I <br>
+	  <button onmousedown="moveup(Com)" onmouseup="clearmove(Com)" ontouchstart="moveup(Com)">UP</button><br><br>
+	  <button onmousedown="movedown(Com)" onmouseup="clearmove(Com)" ontouchstart="movedown(Com)">DOWN</button>
+	</div>
+
+	</div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- PING-PONG AI BY MATT NIX -->
+</html>
