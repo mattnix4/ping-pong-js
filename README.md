@@ -1,2 +1,2 @@
-# ping-pong-js
+# Ping-pong JavasScript Game
 Game Project Javascript
